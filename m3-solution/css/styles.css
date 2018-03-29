@@ -1,6 +1,7 @@
 h2 {
 	font-size: 2em;
 	padding-bottom: 3%;
+	padding-top: 2%;
 }
 
 nav {
@@ -16,7 +17,9 @@ nav {
 .navbar-toggler:active {
 	background-color: #EEE9E9;
 }
-
+.backtop {
+	padding-left: 10px;
+}
 
 .navbar-brand {
 	font-size: 2.5em;
@@ -27,21 +30,24 @@ nav {
 	width: 100%;
 	font-size: 1.4em;
 	background-color: #E4E0E0;
-	border-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-style: none;
 }
 
-.nav-link:hover {
-	background-color: #FAF6F6;
-	font-size: 2em;
+#categorylist li:hover {
+    color: white;
+    text-shadow: 1px 1px 1px black, 0 0 1px #8780E6, 0 0 5px blue;
 }
 
 #maincontent {
 	width: 95%;
 	background-color: #BDBABA;
-	height: 1000px;
+	height: auto;
 }
 #maincontent div {
-	padding: 10px 10px 10px 10px;
+	padding: 15px 15px 15px 15px;
 }
 #maincontent a {
 	padding-top: 3px;
