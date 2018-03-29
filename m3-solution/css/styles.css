@@ -1,14 +1,63 @@
-html {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Poppins', sans-serif;
+h2 {
+	font-size: 2em;
+	padding-bottom: 3%;
 }
 
-nav div {
+nav {
 	background-color: #C0BDBD;
 	color: #000000;
 }
+.navbar-toggler {
+	background-color: #CDCACA
+}
+.navbar-toggler:hover {
+	 background-color: #E1DEDE;
+}
+.navbar-toggler:active {
+	background-color: #EEE9E9;
+}
 
-.navbar-header .navbar-brand {
+
+.navbar-brand {
+	font-size: 2.5em;
+}
+
+#nav-content .nav-link {
+	text-align: center;
+	width: 100%;
+	font-size: 1.4em;
+	background-color: #E4E0E0;
+	border-style: solid;
+}
+
+.nav-link:hover {
+	background-color: #FAF6F6;
 	font-size: 2em;
-	color: #000000;
+}
+
+#maincontent {
+	width: 95%;
+	background-color: #BDBABA;
+	height: 1000px;
+}
+#maincontent div {
+	padding: 10px 10px 10px 10px;
+}
+#maincontent a {
+	padding-top: 3px;
+	padding-left: px;
+}
+#maincontent .row h3 {
+	margin-top: 1%;
+	text-align: center;
+	width: 100%;
+	font-size: 1.22em;
+	padding-bottom: .8%;
+}
+@media (min-width: 576px)
+{
+    #nav-content ul li
+    {
+         display: none;
+    }
 }
