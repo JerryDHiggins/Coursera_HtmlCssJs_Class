@@ -43,24 +43,27 @@ nav {
 
 #maincontent {
 	width: 95%;
-	background-color: #BDBABA;
 	height: auto;
+	margin-left: 1%;
+	margin-right: 1%;
 }
-#maincontent div {
+
+#maincontent .card {
 	padding: 15px 15px 15px 15px;
+	margin-bottom: 2%;
+	background-color: #E5E4E6
 }
 #maincontent a {
 	padding-top: 3px;
-	padding-left: px;
+	padding-left: 3px;
 }
-#maincontent .row h3 {
-	margin-top: 1%;
+.cardtitle {
+	margin-top: .5%;
 	text-align: center;
 	width: 100%;
 	font-size: 1.22em;
 	padding-bottom: .8%;
 }
-
 
 @media (min-width: 576px)
 {
@@ -69,3 +72,28 @@ nav {
          display: none;
     }
 }
+/* Device Specific layout */
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+    width: 50%;
+  }
+  .col-md-1 {
+  	float: left;
+  	width: 100%;
+  }
+}
+
+/************ Small devices *************/
+/** default of single row will work    **/
